@@ -430,3 +430,12 @@ go_repository(
     commit = "44cb242eeb4d76cc813fdc69ba5c4b224677e799",
     importpath = "github.com/urfave/cli",
 )
+
+
+
+go_repository(
+    name = "org_golang_google_protobuf",
+    importpath = "google.golang.org/protobuf",
+    sum = "h1:SnqbnDw1V7RiZcXPx5MEeqPv2s79L9i7BJUlG/+RurQ=",
+    version = "v1.27.1",
+)

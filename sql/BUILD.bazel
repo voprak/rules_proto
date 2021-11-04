@@ -1,0 +1,8 @@
+load("//:plugin.bzl", "proto_plugin")
+
+proto_plugin(
+    name = "sql",
+    out = "{name}.sql",
+    tool = "//sql/protoc-gen-sql:proto_gen_sql",
+    visibility = ["//visibility:public"],
+)
